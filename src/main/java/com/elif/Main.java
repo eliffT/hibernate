@@ -19,8 +19,6 @@ public class Main {
             Employee employee = new Employee("Ayşe", 30, 2500);
             session.persist(employee);
 
-
-
             tx.commit();
         }catch (Exception e){
             if (tx != null) tx.rollback();
