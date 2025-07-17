@@ -3,7 +3,7 @@ package com.elif.user;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Students")
+@Table(name = "student")
 
 public class Student {
     @Id
